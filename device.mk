@@ -115,7 +115,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     libbson \
     libshims_camera \
-    Snap
+    Camera2
 
 # Disable camera Treble path
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -382,3 +382,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
+
+#OpenCamera adding here
+PRODUCT_PACKAGES += \
+OpenCamera
+
+
